@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Charts Example</title>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Timestamp', 'Time (in seconds)'],
+          ['1/1 4:00',  1000],
+          ['2/1 6:00',  1120],
+          ['3/1 7:00',  630],
+          ['4/1 8:00',  1030]
+        ]);
+
+        var options = {
+          title: 'Jog 1-mile',
+		  legend: 'none',
+		  vAxis: {title: "Time (in seconds)"},
+    	  hAxis: {title: ""}
+		  
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+</head>
+<body>
+  <div id="chart_div" style="width: 900px; height: 500px;"></div>
+</body>
+
+</html>
