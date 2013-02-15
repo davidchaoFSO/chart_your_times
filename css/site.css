@@ -1,2 +1,44 @@
-/* CSS Document */
+/* CSS Stylesheet
+Colors:
+Light blue: #84f1f2
+Orange:  #ffae00*/
 
+/* Media Query: Smartphones (portrait) */
+@media only screen and (max-width : 320px) {
+}
+
+/* Media Query: Smartphones (landscape) */
+@media only screen
+and (min-width : 321px) {
+}
+
+/* Media Query: Smartphones (portrait) */
+@media only screen
+and (max-width : 320px) {
+}
+
+/* Media Query: Smartphones (portrait and landscape) */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+}
+
+/* Media Query: iPads (landscape) */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+}
+
+/* Media Query: iPads (portrait) */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+}
+
+/* Media Query: iPads (portrait and landscape) */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+}
