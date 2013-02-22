@@ -5,3 +5,25 @@ Author: David Chao
 Notes: The site begins at index.php
 
 v2.1 index.php does not have any content. Most changes were made to setup.
+
+v3.1 
+
+-authentication not implemented yet. User is set as testUser.
+-create half working. no individual records for activities yet.
+-read half working. no details API page yet.
+-update not yet implemented.
+-delete not yet implemented.
+-styling not yet implemented. backup folder is jQuery mobile. Currently bootstrap is set up. Still experimenting.
+
+--Create
+- No standardization for inputs yet.
+
+--Assets
+- only sql dump has been updated.
+
+Could use some help with:
+-signaling content
+-report misuse
+-feed subscription
+any suggestions are appreciated.
+
